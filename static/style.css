@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+   
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 0px 14px;
+    font-size: 29px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    position: static;
+    background-color: indianred;
+    color: white;
+    padding: 12px 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+#navbar li{
+ list-style: none;   
+}
+
+#navbar li a{
+text-decoration: none;
+padding: 3px 29px;
+color: white;
+font-size: 1.5rem;
+font-weight: bold;
+}
+#navbar li a:hover{
+font-size: 2rem;
+color: rgb(231, 176, 130);
+}
+
+#intro{
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+font-size: 65px;
+    display: flex;
+    padding-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: red;
+}
+#intro div.small{
+    font-size: 25px;
+    padding: 0px;
+}
+#sponsers{
+    height: 245px;
+    background-color: yellow;
+}
+#mission{
+    height: 325px;
+    background-color:burlywood;
+}
+#mission h2{
+    font-size: 34px;
+    text-align: center;
+}
+#mission h2{
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+.card{
+    background-color: lightpink;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 21px;
+    height: 209px;
+}
+.card h3{
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    margin: 23px 0px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 76px;
+    padding: 0px 52px;
+    margin: 8px 10px;
+}
+.card-img img{
+    height: inherit;
+    /* padding: 0 14px; */
+}
+.card-content{
+    padding: 0 -19px;
+}
+.card-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+#sponsers h2{
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+#sponser{
+    height: 120px;
+    max-width: 1000px;
+    margin: 40px 308px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    justify-content: center;
+    color: white;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}

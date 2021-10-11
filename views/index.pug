@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title Learn Dance Academy
+    style
+      include ../static/style.css
+  body
+    //- nav#navbar.top.firstclass.secondclass
+    //-     | this 
+    nav#navbar 
+        ul 
+            div#logo
+              img(src="/static/img/logo.png")
+              | LDA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Contact] 
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Services]
+
+    section#intro 
+        div Welcome To Learn Dance Academy 
+        div.small live learn dance repeat       
+     
+    section#mission 
+        h2 Our Missions 
+        div.card
+          h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+
+                    div.card-content
+                        p This is the best dance academy in your city 
+        div.card
+          h3 Dancing sessions
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+
+                    div.card-content
+                        p This is the best dance academy in your city
+          
+        div.card
+          h3 Trainer Experts
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+
+                    div.card-content
+                        p This is the best dance academy in your city
+          
+
+    section#sponsers
+        h2 Our Sponsers 
+        div#sponser
+           img(src="/static/img/logo1.png",, alt="sponsers Logo",class="spImage")
+           img(src="/static/img/logo2.png",, alt="sponsers Logo",class="spImage")
+           img(src="/static/img/logo3.png",, alt="sponsers Logo",class="spImage")
+           img(src="/static/img/logo4.png",, alt="sponsers Logo",class="spImage")
+    footer#footer 
+          | Copyright © 2021 LearnDanceAcademy.com | All Rights Reserved 
+          | (Made by Vishal Chitrode 
+          | ❤ )        
+    script
+      include ../static/index.js
